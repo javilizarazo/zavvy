@@ -1,0 +1,13 @@
+.CardsList {
+  margin: 20px;
+  width: 100%;
+}
+
+.CardsList.cardData--open {
+  transition: width 1s ease-in-out;
+  width: 30%;
+}
+
+.CardsList__loadingPlaceholder {
+  margin-bottom: 20px;
+}
